@@ -380,7 +380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Simon:Polygonus_Plugs"
+		(property "Footprint" "fome_modules:polygonus"
 			(at -17.78 3.81 0)
 			(effects
 				(font
@@ -1687,10 +1687,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -39.37 30.48 0)
 				(length 3.81)
-				(name "Pin_3"
+				(name "12V_MR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1705,10 +1705,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 27.94 0)
 				(length 3.81)
-				(name "Pin_4"
+				(name "LS1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1723,10 +1723,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 25.4 0)
 				(length 3.81)
-				(name "Pin_5"
+				(name "LS2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1741,10 +1741,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 22.86 0)
 				(length 3.81)
-				(name "Pin_6"
+				(name "LS3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1759,10 +1759,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 20.32 0)
 				(length 3.81)
-				(name "Pin_7"
+				(name "LS4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1777,10 +1777,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 17.78 0)
 				(length 3.81)
-				(name "Pin_8"
+				(name "LS5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1795,10 +1795,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 15.24 0)
 				(length 3.81)
-				(name "Pin_9"
+				(name "LS6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1813,10 +1813,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 12.7 0)
 				(length 3.81)
-				(name "Pin_10"
+				(name "LS7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1831,10 +1831,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 10.16 0)
 				(length 3.81)
-				(name "Pin_11"
+				(name "LS8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1849,10 +1849,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 7.62 0)
 				(length 3.81)
-				(name "Pin_12"
+				(name "IGN12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1867,10 +1867,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 5.08 0)
 				(length 3.81)
-				(name "Pin_13"
+				(name "IGN11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1885,10 +1885,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -39.37 2.54 0)
 				(length 3.81)
-				(name "Pin_14"
+				(name "IGN10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2281,10 +2281,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -1.27 27.94 0)
 				(length 3.81)
-				(name "Pin_36"
+				(name "5V_SENSOR_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2302,7 +2302,7 @@
 			(pin passive line
 				(at -1.27 25.4 0)
 				(length 3.81)
-				(name "Pin_37"
+				(name "5V_SENSOR_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2317,10 +2317,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -1.27 22.86 0)
 				(length 3.81)
-				(name "Pin_38"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2335,10 +2335,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -1.27 20.32 0)
 				(length 3.81)
-				(name "Pin_39"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2353,10 +2353,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -1.27 17.78 0)
 				(length 3.81)
-				(name "Pin_40"
+				(name "5V_SENSOR_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2371,10 +2371,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -1.27 15.24 0)
 				(length 3.81)
-				(name "Pin_41"
+				(name "5V_SENSOR_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2893,10 +2893,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 29.21 -5.08 0)
 				(length 3.81)
-				(name "Pin_81"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2911,10 +2911,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 29.21 -7.62 0)
 				(length 3.81)
-				(name "Pin_82"
+				(name "3V3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2929,10 +2929,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 29.21 -10.16 0)
 				(length 3.81)
-				(name "Pin_83"
+				(name "ETB1_PWM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2947,10 +2947,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 29.21 -12.7 0)
 				(length 3.81)
-				(name "Pin_84"
+				(name "ETB1_DIS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2965,10 +2965,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 29.21 -15.24 0)
 				(length 3.81)
-				(name "Pin_85"
+				(name "ETB1_DIR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2983,10 +2983,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 29.21 -17.78 0)
 				(length 3.81)
-				(name "Pin_86"
+				(name "ETB2_PWM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3001,10 +3001,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 29.21 -20.32 0)
 				(length 3.81)
-				(name "Pin_87"
+				(name "ETB2_DIS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3019,10 +3019,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 29.21 -22.86 0)
 				(length 3.81)
-				(name "Pin_88"
+				(name "ETB2_DIR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3037,10 +3037,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 29.21 -25.4 0)
 				(length 3.81)
-				(name "Pin_89"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3055,10 +3055,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 29.21 -27.94 0)
 				(length 3.81)
-				(name "Pin_90"
+				(name "12V_IGN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3073,10 +3073,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 29.21 -30.48 0)
 				(length 3.81)
-				(name "Pin_91"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3091,10 +3091,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 29.21 -33.02 0)
 				(length 3.81)
-				(name "Pin_92"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3109,10 +3109,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 29.21 -35.56 0)
 				(length 3.81)
-				(name "Pin_93"
+				(name "CAN+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3127,10 +3127,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 29.21 -38.1 0)
 				(length 3.81)
-				(name "Pin_94"
+				(name "CAN-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3145,10 +3145,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 29.21 -40.64 0)
 				(length 3.81)
-				(name "Pin_95"
+				(name "VR2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3163,10 +3163,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 29.21 -43.18 0)
 				(length 3.81)
-				(name "Pin_96"
+				(name "VR1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3253,10 +3253,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 49.53 26.67 0)
 				(length 3.81)
-				(name "Pin_69"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3271,10 +3271,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 49.53 24.13 0)
 				(length 3.81)
-				(name "Pin_70"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3289,10 +3289,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 49.53 21.59 0)
 				(length 3.81)
-				(name "Pin_71"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3307,10 +3307,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 49.53 19.05 0)
 				(length 3.81)
-				(name "Pin_72"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3325,10 +3325,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 49.53 16.51 0)
 				(length 3.81)
-				(name "Pin_73"
+				(name "CAN2+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3343,10 +3343,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 49.53 13.97 0)
 				(length 3.81)
-				(name "Pin_74"
+				(name "CAN2-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3361,10 +3361,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 49.53 11.43 0)
 				(length 3.81)
-				(name "Pin_75"
+				(name "RC1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3382,7 +3382,7 @@
 			(pin passive line
 				(at 49.53 8.89 0)
 				(length 3.81)
-				(name "Pin_76"
+				(name "RC2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3433,10 +3433,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 49.53 1.27 0)
 				(length 3.81)
-				(name "Pin_79"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3451,10 +3451,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 49.53 -1.27 0)
 				(length 3.81)
-				(name "Pin_80"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
