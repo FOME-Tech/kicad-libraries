@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U2"
+		(property "Reference" "U"
 			(at 2.1941 16.51 0)
 			(effects
 				(font
@@ -362,16 +362,18 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at 0 0 0)
+		(property "Reference" "M"
+			(at 13.97 10.414 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "polygonus"
-			(at 0 0 0)
+		(property "Value" "Polygonus ECU Module"
+			(at 24.384 7.874 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,10 +1651,10 @@
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -39.37 35.56 0)
 				(length 3.81)
-				(name "Pin_1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1667,10 +1669,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -39.37 33.02 0)
 				(length 3.81)
-				(name "Pin_2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2207,10 +2209,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -39.37 -43.18 0)
 				(length 3.81)
-				(name "Pin_32"
+				(name "12V_MR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2225,10 +2227,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 35.56 0)
 				(length 3.81)
-				(name "Pin_33"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2765,10 +2767,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -1.27 -40.64 0)
 				(length 3.81)
-				(name "Pin_63"
+				(name "Knock_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2783,10 +2785,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -1.27 -43.18 0)
 				(length 3.81)
-				(name "Pin_64"
+				(name "Knock_2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2804,7 +2806,7 @@
 			(pin passive line
 				(at 24.13 35.56 0)
 				(length 3.81)
-				(name "Pin_97"
+				(name "USB_SHIELD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2819,10 +2821,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 24.13 33.02 0)
 				(length 3.81)
-				(name "Pin_98"
+				(name "USB_GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2837,10 +2839,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 24.13 30.48 0)
 				(length 3.81)
-				(name "Pin_99"
+				(name "USB_D+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2855,10 +2857,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 24.13 27.94 0)
 				(length 3.81)
-				(name "Pin_100"
+				(name "USB_D-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2873,10 +2875,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 24.13 25.4 0)
 				(length 3.81)
-				(name "Pin_101"
+				(name "USB_VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
