@@ -24,7 +24,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "wideband_module:f042_wideband_module"
+		(property "Footprint" "fome_modules:f042_wideband_module"
 			(at -7.62 -16.51 0)
 			(effects
 				(font
